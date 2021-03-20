@@ -9,7 +9,7 @@
     <!-- Styles -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.scss">
     
     <!-- Javascript -->
     <script src="jquery cdn"></script>
@@ -28,7 +28,7 @@
       </a>
       <a href="#home" class="w3-bar-item w3-button">INICIO</a>
       <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE MÍ</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TRABAJA CONMIGO</a>
+      <a href="#trabaja-conmigo" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TRABAJA CONMIGO</a>
       <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
       <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-envelope"></i> CONTACTO</a>
       </a>
@@ -37,7 +37,7 @@
     <!-- Navbar on small screens -->
     <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
       <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MÍ</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TRABAJA CONMIGO</a>
+      <a href="#trabaja-conmigo" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TRABAJA CONMIGO</a>
       <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
       <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTO</a>
       <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
@@ -56,14 +56,20 @@
 
   <!-- Container (About Section) -->
   <div class="w3-content w3-container w3-padding-64" id="about">
+    
     <h3 class="w3-center">SOBRE MÍ</h3>
     <p class="w3-center"><em>I love photography</em></p>
-    <p>Puro nervio, un culo inquieto de manual. Esa soy yo. A veces más, otras menos. Pero, siempre, decidida a seguir un camino de aprendizaje, entusiasmo y luz. Mi necesidad de expresar, de comunicar, de conectar con otras personas me ha acompañado desde que era una pequeña traviesa con pañales. A pesar de ello, no recuerdo el momento en el que decidí ser periodista. Tampoco nunca he aspirado a ser ‘una sola cosa’. Mi pasión está ligada a la inquietud; al amor por conocer, por descubrir, por explorar constantemente a través de la creatividad. Sin casi darme cuenta, he encontrado una manera de canalizar todo lo que me nace de dentro y me hace vibrar por fuera. </p>
     <div class="w3-row">
+      <p class="w3-col m6 w3-center w3-padding-large">Puro nervio, un culo inquieto de manual. Esa soy yo. A veces más, otras menos. Pero, siempre, decidida a seguir un camino de aprendizaje, entusiasmo y luz. Mi necesidad de expresar, de comunicar, de conectar con otras personas me ha acompañado desde que era una pequeña traviesa con pañales. A pesar de ello, no recuerdo el momento en el que decidí ser periodista. Tampoco nunca he aspirado a ser ‘una sola cosa’. Mi pasión está ligada a la inquietud; al amor por conocer, por descubrir, por explorar constantemente a través de la creatividad. Sin casi darme cuenta, he encontrado una manera de canalizar todo lo que me nace de dentro y me hace vibrar por fuera. </p>
+   
       <div class="w3-col m6 w3-center w3-padding-large">
-        <p><b><i class="fa fa-user w3-margin-right"></i>Marina</b></p><br>
-        <img src="./imgs/marina-2.jpg" class="w3-round w3-image" alt="Photo of Me" width="500" height="333">
+        <img src="./imgs/sobre-mi-1.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="auto">
       </div>
+     <div class="w3-row">
+      <div class="w3-col m6 w3-center w3-padding-large">
+        <img src="./imgs/sobre-mi-2.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="auto">
+      </div>
+
 
       <!-- Hide this text on small devices -->
       <div class=" w3-hide-small w3-padding-large">
@@ -73,6 +79,7 @@
           Operación Triunfo (Gestmusic Endemol Shine Group), Mood Z (TV3), Cazamariposas (Mediaset España)...Me siento afortunada de haber empezado mi camino profesional rodeada de personas que han sumado, que han aportado conocimiento donde solo había ilusiones. He aprendido a oír menos y a escuchar mejor. Espero nunca dejar de hacerlo. Tengo los sueños despiertos y el entusiasmo encendido. Amor y pasión. Eso es para mí la plenitud.
         </p>
       </div>
+    </div>
     </div>
    
   </div>
@@ -87,49 +94,50 @@
   </div>
 
   <!-- Container (Portfolio Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">En qué puedo ayudarte</h3>
-    <p class="w3-center"><em>Estos son los servicios que ofrezco<br> Haz click en las imágenes para más información</em></p><br>
+  <div class="w3-content w3-container w3-padding-64" id="trabaja-conmigo">
+    <h3 class="w3-center">¿EN QUÉ PUEDO AYUDARTE?</h3>
+    <p class="w3-center w3-margin-bottom"><em>Estos son los servicios que ofrezco<br> Haz click en las imágenes para más información</em></p><br>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
     <div class="w3-row-padding w3-center">
 
-      <div class="w3-card-4  w3-col m3 w3-margin-left" style="width:30%">
-        <div class="w3-display-container w3-text-white">
-          <i class="fa fa-tv fa-fw w3-hover-opacity w3-hover-text-black w3-jumbo" style="width:100%; color: black"></i>
-        </div>
+      <div class=" w3-col m3 w3-margin-left w3-margin-top" style="width:30%">
+        <i class="fa fa-tv fa-fw w3-hover-opacity w3-hover-text-black w3-jumbo" style="width:100%; color: black"></i>
+
         <div class="w3-row">
           <h3>Televisión</h3>
+          <p>Presentación, redacción, creación, producción...Descubre mi trabajo delante de cámara</p>
+          <button class="w3-button w3-round-xxlarge w3-pale-red">¡Contáctame!</button>
         </div>
  
       </div>
       
 
-      <div class="w3-card-4  w3-col m3 w3-margin-left" style="width:30%">
-        <div class="w3-display-container w3-text-white">
+      <div class=" w3-col m3 w3-margin-left w3-margin-top" style="width:30%">
+        <div class="w3-row">
           <i class="fa fa-microphone w3-hover-opacity fa-fw w3-hover-text-black w3-jumbo " style="width:100%; color: black"></i>
         </div>
-        <div class="w3-row">
+         <div class="w3-row">
           <h3>Locuciones</h3>
+          <p> Trabajar con la voz es una de mis grandes pasiones. Estos son algunos de mis registros...</p>
+          <button class="w3-button w3-round-xxlarge w3-pale-red">¡Contáctame!</button>
         </div>
- 
       </div>
 
-      <div class="w3-card-4  w3-col m3 w3-margin-left" style="width:30%">
-        <div class="w3-display-container w3-text-white">
-          <i class="fa fa-users w3-hover-opacity fa-fw w3-hover-text-black w3-jumbo" style="width:100%; color: black"></i>
-        </div>
+      <div class="w3-col m3 w3-margin-left w3-margin-top" style="width:30%">
         <div class="w3-row">
+          <i class="fa fa-users w3-hover-opacity fa-fw w3-hover-text-black w3-jumbo" style="width:100%; color: black"></i>
+        </div>  
+
+        <div class="w3-row ">
           <h3>Eventos</h3>
+          <p>Presentar eventos, conducir debates y charlas en directo..</p>
+          <button class="w3-button w3-round-xxlarge w3-pale-red">¡Contáctame!</button>
         </div>
  
       </div>
 
     </div>
-
-
-   
-      <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
     </div>
   </div>
 
@@ -142,12 +150,79 @@
     </div>
   </div>
 
-  <!-- Third Parallax Image with Portfolio Text -->
-  <div class="bgimg-3 w3-display-container">
-    <div class="w3-display-middle">
-      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-    </div>
+  
+  <!-- First Parallax Video with Portfolio Text -->
+  <iframe id="myVideo" src="https://www.youtube.com/embed/iH_RMYtoLd4?controls=0&autoplay=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"
+  mozallowfullscreen="mozallowfullscreen" 
+  msallowfullscreen="msallowfullscreen" 
+  oallowfullscreen="oallowfullscreen" 
+  webkitallowfullscreen="webkitallowfullscreen"></iframe>
+
+
+   <!-- Container (Contact Section) -->
+   <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">PORTFOLIO</h3>
+    <p class="w3-center"><em>Me encantará colaborar contigo!</em></p>
+
+    <!-- First Row -->
+    <div class="w3-row-padding w3-margin-bottom">
+      <div class="w3-col s4">
+        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/9OyCPuNZ3Fw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+      <div class="w3-col s4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/iH_RMYtoLd4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+      <div class="w3-col s4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/QxLJbNm-jCc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+    </div> 
+
+    <!-- Second Row -->
+    <div class="w3-row-padding w3-margin-bottom">
+      <div class="w3-col s4">
+        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/9OyCPuNZ3Fw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+      <div class="w3-col s4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/iH_RMYtoLd4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+      <div class="w3-col s4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/QxLJbNm-jCc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+    </div> 
+
+    <!-- Third Row -->
+    <div class="w3-row-padding w3-margin-bottom">
+      <div class="w3-col s4">
+        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/9OyCPuNZ3Fw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+      <div class="w3-col s4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/iH_RMYtoLd4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+      <div class="w3-col s4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/QxLJbNm-jCc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">fkjasdjfkldjasfñas</p>
+      </div>
+    </div> 
+
+
   </div>
+
+
+    <!-- 4 Parallax Image with Portfolio Text -->
+    <div class="bgimg-3 w3-display-container">
+      <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">CONTACTO</span>
+      </div>
+    </div>
+
 
   <!-- Container (Contact Section) -->
   <div class="w3-content w3-container w3-padding-64" id="contact">
@@ -155,10 +230,10 @@
     <p class="w3-center"><em>Me encantará colaborar contigo!</em></p>
 
     <div class="w3-row w3-padding-32 w3-section">
-      <div class="w3-col m4 w3-container">
-        <img src="./imgs/marina-3.jpg" class="w3-image w3-round" style="width:100%">
+      <div class="w3-col m6 w3-container">
+        <img src="./imgs/contacto.png" class="w3-image w3-round" width="500" height="auto">
       </div>
-      <div class="w3-col m8 w3-panel">
+      <div class="w3-col m6 w3-panel">
         <div class="w3-large w3-margin-bottom">
           <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Barcelona, España<br>
           <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: marina.vallejo@protonmail.com<br>
@@ -169,48 +244,54 @@
     </div>
   </div>
 
-  <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-    <div class="w3-col w3-section">
-      <span class="w3-xlarge">14+</span><br>
-      MEDIASET
+  <!-- Slider brands-->
+  <div class="w3-row w3-center w3-padding-16 brands">
+    <div class="w3-col s1 w3-section">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">55+</span><br>
-      TV3
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/bombilla.png" style="width:40%">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">89+</span><br>
-      LA BOMBILLA MEDIA
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/canalte.png" style="width:40%">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">150+</span><br>
-      LA FÁBRICA DE LA TELE
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/divinity.png" style="width:40%">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">150+</span><br>
-      DIVINITY
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/gestmusic.png" style="width:40%">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">150+</span><br>
-      CANAL TERRES DE L'EBRE
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/google.png" style="width:40%">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">150+</span><br>
-      GESTMUSIC
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/lfdt.png" style="width:40%">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">150+</span><br>
-      TVE
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/mediaset.png" style="width:40%">
     </div>
-    <div class="w3-quarter w3-section">
-      <span class="w3-xlarge">150+</span><br>
-      TALENT FACTORY
-    </div><div class="w3-quarter w3-section">
-      <span class="w3-xlarge">150+</span><br>
-      GOOGLE ESPAÑA
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/talent-factory.png" style="width:40%">
+    </div>
+
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/tve1.png" style="width:40%">
+    </div>
+    
+    <div class="w3-col s1 w3-section">
+      <img src="./imgs/company-icons/tv3.png" style="width:40%">
     </div>
   </div>
+ <!-- Slider brands-->
 
+ 
   <!-- Footer -->
   <footer class="w3-center w3-black w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Arriba</a>
