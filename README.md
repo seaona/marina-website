@@ -1,7 +1,8 @@
-# Personal Website Parallax Style
+# Professional Freelancer Website - Parallax Style
 ## Summary
 This project is a professional website for a Freelancer, using plain HTML, CSS and Javascript.
 ![](readme-assets/demo.gif)
+Live project on ![marinavallejo.com](http://marinavallejo.com/)
 
 ## Functionalities
 It's a simple professional website that uses parallax effect and it's optimized for mobile and smaller screens using a static view.
