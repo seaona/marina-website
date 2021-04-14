@@ -29,6 +29,7 @@ function toggleFunction() {
     }
 }
 
+
 function doGet() {
     return HtmlService.createTemplateFromFile('form.html')
         .evaluate() // evaluate MUST come before setting the Sandbox mode
@@ -42,3 +43,4 @@ $(document).ready(function() {
 })
 
 window.addEventListener('load', doGet(), false)
+
