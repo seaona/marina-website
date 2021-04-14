@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Rochester&display=swap');
 
 * {
-  //font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   //font-family: 'PT Serif', serif; si
-  font-family: 'Noto Serif JP', serif !important;
+  //font-family: 'Noto Serif JP', serif !important;
 
 }
 
@@ -19,7 +19,6 @@ body, html {
 }
 
 
-
 #brand {
   color:#FF6663;
   font-weight: 700 !important;
@@ -28,6 +27,9 @@ body, html {
   letter-spacing: 0 !important;
 }
 
+#myNavbar{
+  font-size: 1em !important;
+}
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -80,6 +82,17 @@ body, html {
 
 .brands {
   background-color: #f1f1f1;
+}
+
+#btn-about {
+  color: #f1f1f1 !important;
+  background-color: #FF6663 !important;
+  font-weight: 700 !important;
+  opacity: 0.6;
+}
+
+#btn-about:hover {
+  opacity: 1;
 }
 
 i {

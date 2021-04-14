@@ -32,15 +32,11 @@ function toggleFunction() {
 
 function doGet() {
     return HtmlService.createTemplateFromFile('form.html')
-        .evaluate() // evaluate MUST come before setting the Sandbox mode
+        .evaluate() // evaluate MUST come before setting the Sandbox modenavDemo
         .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
 }
 
-$(document).ready(function() {
-    $("p").click(function() {
-        $("p").hide();
-    })
-})
+
 
 window.addEventListener('load', doGet(), false)
 
