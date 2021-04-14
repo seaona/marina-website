@@ -17,7 +17,6 @@
   </head>
 
 
-
   <body>
 
   <!-- Navbar (sit on top) -->
@@ -26,232 +25,260 @@
       <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
         <i class="fa fa-bars"></i>
       </a>
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> SOBRE MÍ</a>
-      <a href="#trabaja-conmigo" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TRABAJA CONMIGO</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> PORTFOLIO</a>
+  
       <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-envelope"></i> CONTACTO</a>
+      <a href="#eventos" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-users"></i> EVENTOS</a>
+      <a href="#voz" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-microphone"></i> VOZ</a>
+      <a href="#tv" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-tv"></i> TV</a>
+      <a href="#servicios" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-th"></i> SERVICIOS</a>
+      <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-user"></i> SOBRE MÍ</a>
+      
       <a href="#home" class="w3-bar-item w3-button w3-center w3-wide">MARINA VALLEJO</a>  
     </a>
     </div>
 
     <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium ">
       <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">SOBRE MÍ</a>
-      <a href="#trabaja-conmigo" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> TRABAJA CONMIGO</a>
-      <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
+      <a href="#servicios" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVICIOS</a>
+      <a href="#tv" class="w3-bar-item w3-button" onclick="toggleFunction()">TV</a>
+      <a href="#voz" class="w3-bar-item w3-button" onclick="toggleFunction()">VOZ</a>
+      <a href="#eventos" class="w3-bar-item w3-button" onclick="toggleFunction()">EVENTOS</a>
       <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACTO</a>
-      <a href="#" class="w3-bar-item w3-button">BUSCAR</a>
     </div>
   </div>
 
   <!-- First Parallax Image with Logo Text -->
-  <div class="bgimg-1 w3-display-container " id="home">
+  <div style="padding:56.25% 0 0 0;position:relative;" id="home">
+    <iframe src="https://player.vimeo.com/video/526634855?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
   </div>
 
-  <!-- Container (About Section) -->
+
+<!--FULL SCREEN VIDEO
+  <div style="padding:56.25% 0 0 0; position:relative;">
+    <iframe src="https://player.vimeo.com/video/526635200?autoplay=1&loop=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+  </div> -->
+
+
+  <!-- ABOUT SECTION -->
   <div class="w3-content w3-container w3-padding-32" id="about">
     
     <h3 class="w3-center">SOBRE MÍ</h3>
-    <div class="w3-row w3-col m6 w3-padding-large">
-     <p class="">Puro nervio, un culo inquieto de manual. Esa soy yo. A veces más, otras menos. Pero, siempre, decidida a seguir un camino de aprendizaje, entusiasmo y luz.</p>
-     <p>Mi necesidad de expresar, de comunicar, de conectar con otras personas me ha acompañado desde que era una pequeña traviesa con pañales. A pesar de ello, no recuerdo el momento en el que decidí ser periodista. Tampoco nunca he aspirado a ser ‘una sola cosa’. Mi pasión está ligada a la inquietud; al amor por conocer, por descubrir, por explorar constantemente a través de la creatividad.</p>
-     <p>Sin casi darme cuenta, he encontrado una manera de canalizar todo lo que me nace de dentro y me hace vibrar por fuera. </p>
-     <em><h3 id="texto-destacado">Mi pasión está ligada a la inquietud; al amor por conocer, por descubrir, por explorar constantemente a través de la creatividad</h3></em>
-     <p>Diría que soy una comunicadora todoterreno, y en múltiples facetas. Canto, bailo, escribo, trabajo en televisión, delante y detrás de las cámaras; corrijo novelas, presento eventos, elaboro guiones y secciones de todo tipo, y todavía me queda tiempo para estudiar piano. ¡Ah! Y me encanta hacer movidas relacionadas con el mundo de la improvisación teatral y versiones parodia de canciones random.</p>
+
+    <!-- ABOUT: TEXTO 1-->
+    <div id="about-text1" class="w3-row w3-col m6 w3-padding-large">
+      <p class="">Puro nervio, un culo inquieto de manual. Esa soy yo. A veces más, otras menos. Pero, siempre, decidida a seguir un camino de aprendizaje, entusiasmo y luz.</p>
+      <p>Mi necesidad de expresar, de comunicar, de conectar con otras personas me ha acompañado desde que era una pequeña traviesa con pañales. A pesar de ello, no recuerdo el momento en el que decidí ser periodista. Tampoco nunca he aspirado a ser ‘una sola cosa’. Mi pasión está ligada a la inquietud; al amor por conocer, por descubrir, por explorar constantemente a través de la creatividad.</p>
+      <p>Sin casi darme cuenta, he encontrado una manera de canalizar todo lo que me nace de dentro y me hace vibrar por fuera. </p>
+      <em><h3 id="texto-destacado">Mi pasión está ligada a la inquietud; al amor por conocer, por descubrir, por explorar constantemente a través de la creatividad</h3></em>
+      <p>Diría que soy una comunicadora todoterreno, y en múltiples facetas. Canto, bailo, escribo, trabajo en televisión, delante y detrás de las cámaras; corrijo novelas, presento eventos, elaboro guiones y secciones de todo tipo, y todavía me queda tiempo para estudiar piano. ¡Ah! Y me encanta hacer movidas relacionadas con el mundo de la improvisación teatral y versiones parodia de canciones random.</p>
     </div>
-      <div class="w3-col m6 w3-center w3-padding-large">
-        <img src="./imgs/sobre-mi-1.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="auto">
-      </div>
-     <div class="w3-row">
+
+    <!-- ABOUT: FOTO 1 -->
+    <div id="about-pic1" class="w3-col m6 w3-center w3-padding-large">
+      <img src="./imgs/sobre-mi-1.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="auto">
+    </div>
+
+    <!-- ABOUT: FOTO 2 -->
+    <div id="about-pic1" class="w3-row"></div>
       <div class="w3-col m6 w3-center w3-padding-large">
         <img src="./imgs/sobre-mi-2.png" class="w3-round w3-image" alt="Photo of Me" width="500" height="auto">
       </div>
 
 
-      <!-- Hide this text on small devices w3-hide-small-->
-      <div class="w3-padding-large">
+      <!-- TEXTO 2-->
+      <div id="about-text2" class="w3-padding-large">
         <p>El arte, especialmente la música, es un gran compañero de viaje desde que tengo uso de razón. Mi formación también ha ido encaminada siempre en esa dirección. La vida, para mí, es una senda constante de autodescubrimiento y crecimiento en cada uno de los ámbitos en los que pongo foco y energías. Cada paso que he dado hasta ahora ha sido un soplo de aire fresco para todo lo que está por llegar.</p>
         <em><h3>El arte, especialmente la música, es un gran compañero de viaje desde que tengo uso de razón</h3></em>
-        <p>Operación Triunfo (Gestmusic Endemol Shine Group), Mood Z (TV3), Cazamariposas (Mediaset España)...Me siento afortunada de haber empezado mi camino profesional rodeada de personas que han sumado, que han aportado conocimiento donde solo había ilusiones.</p>
-        <p>He aprendido a oír menos y a escuchar mejor. Espero nunca dejar de hacerlo. Tengo los sueños despiertos y el entusiasmo encendido. Amor y pasión. Eso es para mí la plenitud.</p>
-      </div>
-    </div>
-    </div>
-   
+        </div>  
+        <div id="about-text3" class="w3-padding-large">
+          <p>Operación Triunfo (Gestmusic Endemol Shine Group), Mood Z (TV3), Cazamariposas (Mediaset España)...Me siento afortunada de haber empezado mi camino profesional rodeada de personas que han sumado, que han aportado conocimiento donde solo había ilusiones.</p>
+          <p>He aprendido a oír menos y a escuchar mejor. Espero nunca dejar de hacerlo. Tengo los sueños despiertos y el entusiasmo encendido. Amor y pasión. Eso es para mí la plenitud.</p>
+        </div>
+        </div>  
+    </div>  
   </div>
 
-  
 
-  <!-- Second Parallax Image with Portfolio Text -->
-  <div class="bgimg-2 w3-display-container">
+  <!-- PARALLAX IMG 1: TRABAJA CONMIGO-->
+  <div class="bgimg-1 w3-display-container ">
     <div class="w3-display-middle">
       <span class="w3-xxlarge w3-text-white w3-wide">TRABAJA CONMIGO</span>
     </div>
   </div>
 
-  <!-- Container (Portfolio Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="trabaja-conmigo">
-    <h3 class="w3-center">¿EN QUÉ PUEDO AYUDARTE?</h3>
-    <p class="w3-center w3-margin-bottom"><em>Estos son los servicios que ofrezco</em></p><br>
 
-    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <!-- TRABAJA CONMIGO SECTION-->
+  <div class="w3-content w3-container w3-padding-64" id="servicios">
+    <h3 class="w3-center">¿EN QUÉ PUEDO AYUDARTE?</h3><br>
+
+    <!-- Responsive Grid. 3 columns -->
     <div class="w3-row-padding w3-center">
 
+      <!-- 1a COLUMNA -->
       <div class=" w3-col m4 w3-margin-top">
         <i class="fa fa-tv fa-fw w3-hover-opacity w3-hover-text-black w3-jumbo" style="width:100%; color: black"></i>
-
         <div class="w3-row">
           <h3>Televisión</h3>
           <p>Disfruto de cada una de las fases: presentación, redacción, creación, producción, edición...entre muchas otras.</p>
-          <button href="#contact" class="w3-button w3-round-xxlarge w3-pale-red"><a id="no-style" href="#contact">¡Contáctame!</a></button>
+          <button href="#tv" class="w3-button w3-round-xxlarge w3-pale-red"><a id="no-style" href="#tv">Ver más</a></button>
         </div>
- 
       </div>
       
-
+      <!-- 2a COLUMNA -->
       <div class=" w3-col m4 w3-margin-top">
         <div class="w3-row">
           <i class="fa fa-microphone w3-hover-opacity fa-fw w3-hover-text-black w3-jumbo " style="width:100%; color: black"></i>
         </div>
          <div class="w3-row">
-          <h3>Locuciones</h3>
-          <p>Trabajar con la voz, en todo tipo de registros, es una de mis grandes pasiones. Vídeos, audiolibros, anuncios…¡Todo lo que se te ocurra!</p>
-          <button class="w3-button w3-round-xxlarge w3-pale-red"><a id="no-style" href="#contact">¡Contáctame!</a></button>
+          <h3>Voz</h3>
+          <p>Trabajar con la voz, en todo tipo de registros, es una de mis grandes pasiones. Vídeos, audiolibros, cursos…¡Todo lo que se te ocurra!</p>
+          <button class="w3-button w3-round-xxlarge w3-pale-red"><a id="no-style" href="#voz">Ver más</a></button>
         </div>
       </div>
 
+      <!-- 3a COLUMNA -->
       <div class="w3-col m4 w3-margin-top">
         <div class="w3-row">
           <i class="fa fa-users w3-hover-opacity fa-fw w3-hover-text-black w3-jumbo" style="width:100%; color: black"></i>
         </div>  
-
         <div class="w3-row ">
           <h3>Eventos</h3>
           <p>¿Tienes alguna presentación, charla en directo o debate a la vista? Me encantaría poner toda mi energía en tu proyecto.</p>
-          <button href="#contact" class="w3-button w3-round-xxlarge w3-pale-red"><a id="no-style" href="#contact">¡Contáctame!</a></button>
+          <button href="#contact" class="w3-button w3-round-xxlarge w3-pale-red"><a id="no-style" href="#eventos">Ver más</a></button>
         </div>
- 
       </div>
-
     </div>
-    </div>
-  </div>
 
-  <!-- Modal for full size images on click-->
-  <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-    <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-      <img id="img01" class="w3-image">
-      <p id="caption" class="w3-opacity w3-large"></p>
     </div>
   </div>
 
 
-  <!-- First Parallax Video with Portfolio Text -->
-  <iframe id="myVideo" src="https://player.vimeo.com/video/526634855?loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"
-  mozallowfullscreen="mozallowfullscreen" 
-  msallowfullscreen="msallowfullscreen" 
-  oallowfullscreen="oallowfullscreen" 
-  webkitallowfullscreen="webkitallowfullscreen"></iframe>
 
-
-   <!-- Container (Contact Section) -->
-   <div class="w3-content w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">PORTFOLIO</h3>
+   <!-- PORTFOLIO SECTION: TV -->
+   <div class="titulo-portfolio">
+    <h3 class="w3-left">TELEVISIÓN</h3>
+   </div>
+   <div id="portfolio">
 
     <!-- First Row -->
-    <div class="w3-row-padding w3-margin-bottom">
+    <div class="w3-row-padding w3-margin-bottom" id="tv">
       <div class="w3-col m4">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/vMkxIv0rUx0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Cazamariposas - Redacción y locución registro informal</p>
+        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/y8XeeMRu2lk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Mood Z (TV3) - Entrevista: Ser jove trans</p>
       </div>
       <div class="w3-col m4">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Kq7ji46tko?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Cazamariposas - Parodia musical sobre las elecciones de 2019</p>
+        <iframe width="100%" height="315" src="https://player.vimeo.com/video/527224387?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Cazamariposas (Divinity) - Conexión en directo</p>
       </div>
+
       <div class="w3-col m4">
-        <iframe src="https://player.vimeo.com/video/527224387?title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Talent Factory School - Locuciones</p>
-      </div><script src="https://player.vimeo.com/api/player.js"></script>
+        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/mpe6RXYP63M?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Talent Factory School (TV3) - Televisión</p>
+      </div>
     </div> 
 
     <!-- Second Row -->
     <div class="w3-row-padding w3-margin-bottom">
       <div class="w3-col m4">
-        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/9OyCPuNZ3Fw?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Talent Factory School - Televisión</p>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/3VcfbFXJJXM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Mood Z (TV3) - Entrevista a Quico Germain, Fundador de Petits Detalls</p>
       </div>
       <div class="w3-col m4">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/iH_RMYtoLd4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Talent Factory School - Presentación de Evento Final</p>
+        <iframe width="100%" height="315" src="https://player.vimeo.com/video/531328764?title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Cazamariposas (Divinity) - Directo en plató</p>
       </div>
       <div class="w3-col m4">
-        <iframe src="https://player.vimeo.com/video/527224387?title=0&byline=0&portrait=0" width="100%" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Cazamariposas - Conexión en directo</p>
-      </div><script src="https://player.vimeo.com/api/player.js"></script>
-      
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/KJ9FtlcHgpk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Mood Z (TV3) - Entrevista al grup musical Stay Homas</p>
+      </div>
     </div> 
+  </div>
 
-    <!-- Third Row -->
-    <div class="w3-row-padding w3-margin-bottom">
-      <div class="w3-col m4">
-        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/cByo7gCz9eg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Cazamariposas - Redacción y locución Familia Real</p>
-      </div>
-      <div class="w3-col m4">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/y9gC_7Rd1RU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Cazamariposas- Redacción y locución Rocío Jurado</p>
-      </div>
-      <div class="w3-col m4">
-        <iframe width="100%" height="315" src="https://player.vimeo.com/video/531328764?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Cazamariposas - Directo en plató</p>
-      </div>
-    </div> 
+  <!-- PORTFOLIO SECTION: LOCUCION -->
+  <div class="titulo-portfolio">
+    <h3 class="w3-left">VOZ</h3>
+   </div>
+    <div id="voz">
+      <!-- Third Row -->
+      <div class="w3-row-padding w3-margin-bottom">
+        <div class="w3-col m4">
+          <iframe  width="100%" height="315" src="https://www.youtube.com/embed/cByo7gCz9eg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="w3-margin-bottom">Cazamariposas (Divinity) - Redacción y locución Familia Real</p>
+        </div>
+        <div class="w3-col m4">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/LtbWBLR7sEk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="w3-margin-bottom">Curso E-learning - Voice over</p>
+        </div>
+        <div class="w3-col m4">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/5Kq7ji46tko?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p class="w3-margin-bottom">Cazamariposas (Divinity) - Parodia musical sobre las elecciones de 2019</p>
+        </div>
+      </div> 
+    </div>
+    
 
     <!-- Fourth Row -->
     <div class="w3-row-padding w3-margin-bottom">
       <div class="w3-col m4">
-        <iframe  width="100%" height="315" src="https://www.youtube.com/embed/cByo7gCz9eg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Mood Z - Entrevista: Ser jove trans</p>
-      </div>
-      <div class="w3-col m4">
         <iframe width="100%" height="315" src="https://www.youtube.com/embed/y9gC_7Rd1RU?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Mood Z- Entrevista al grup musical Stay Homas</p>
+        <p class="w3-margin-bottom">Cazamariposas (Divinity) - Redacción y locución Rocío Jurado</p>
+      </div>
+
+      <div class="w3-col m4">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/PSbjONsRQJc?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Talent Factory School (TV3) - Voz en off</p>
       </div>
       <div class="w3-col m4">
-        <iframe width="100%" height="315" src="https://player.vimeo.com/video/531328764?title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
-        <p class="w3-margin-bottom">Mood Z- Entrevista a Mohamed El Amrani, Premio Princesa de Girona  por su labor social</p>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/vMkxIv0rUx0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="w3-margin-bottom">Cazamariposas (Divinity) - Redacción y locución registro informal</p>
       </div>
     </div> 
 
-  </div>
+ 
 
-
-    <!-- 4 Parallax Image with Portfolio Text -->
-    <div class="bgimg-3 w3-display-container">
-      <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">CONTACTO</span>
-      </div>
+      <!-- PORTFOLIO SECTION: EVENTOS -->
+      <div class="titulo-portfolio">
+        <h3 class="w3-left">EVENTOS</h3>
+       </div>
+      <div id="eventos">
+        <!-- Fifth Row -->
+        <div class="w3-row-padding w3-margin-bottom">
+          <div class="w3-col m4">
+            <iframe  width="100%" height="315" src="https://www.youtube.com/embed/cByo7gCz9eg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p class="w3-margin-bottom">Talent Factory School (TV3) - Gala final en casa Seat</p>
+          </div>
+        </div> 
     </div>
 
 
+
+  <!-- PARALLAX IMG 2: CONTACTO -->
+  <div class="bgimg-2 w3-display-container">
+    <div class="w3-display-middle">
+      <span class="w3-xxlarge w3-text-white w3-wide">CONTACTO</span>
+    </div>
+  </div>
+
+
+
   <!-- Container (Contact Section) -->
-  <div class="w3-content w3-container w3-padding-64" id="contact">
-    <h3 class="w3-center">ESCRÍBEME</h3>
-    <p class="w3-center"><em>¡Me encantará colaborar contigo!</em></p>
+  <div class="w3-content w3-container w3-padding-32" id="contact">
+    <h3 class="w3-center">¡HABLEMOS!</h3>
 
     <div class="w3-row w3-padding-32 w3-section">
-      <div class="w3-col m6 w3-container">
-        <img src="./imgs/contacto.png" class="w3-image w3-round" width="500" height="auto">
+      <div id="contact-pic" class="w3-col m6 w3-container">
+        <img src="./imgs/contacto.jpg" class="w3-image w3-round" width="600" height="auto">
       </div>
-      <div class="w3-col m6 w3-panel">
+      <div id="contact-text1" class="w3-col m6 w3-panel">
         <div class="w3-large w3-margin-bottom">
           <p>¡Hola! <i class="fa fa-coffee"></i> Escríbeme a mi correo o, si lo prefieres, podemos estar en contacto a través de mis redes sociales.</p>
-          <p>¡Me encantará hablar contigo!</p>
+          <p>¡Me encantará colaborar contigo!</p>
           <p>Un abrazo,</p>
           <p>Marina.</p>
         </div>
-      <br>
+      </div>
+      <div id="contact-text2" class="w3-col m6 w3-panel">
         <div class="w3-large w3-margin-bottom">
           <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Barcelona, España<br>
           <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: hola@marinavallejo.com<br>
@@ -328,5 +355,6 @@
   </footer>
 
 
+  <script src="https://player.vimeo.com/api/player.js"></script>
   </body>
 </html>

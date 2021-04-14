@@ -1,8 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;400;700&display=swap');
 
 
 * {
-  font-family: 'Montserrat', sans-serif;
+  //font-family: 'Montserrat', sans-serif;
+  //font-family: 'PT Serif', serif; si
+  font-family: 'Noto Serif JP', serif;
+
 }
 
 body, html {
@@ -12,9 +17,6 @@ body, html {
   margin: 0px;
 }
 
-#texto-destacado {
-
-}
 
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -89,6 +91,30 @@ i {
   text-decoration: none;
 }
 
+
+#portfolio {
+  background-color: #F2F2F2;
+  margin-bottom: 2em;
+}
+
+#voz {
+  background-color: white;
+  margin-bottom: 2em;
+}
+
+#eventos {
+  background-color: #F2F2F2;
+  margin-bottom: 2em;
+}
+
+.titulo-portfolio h3{
+  background-color: #FF6663;
+  color: white;
+  padding-left: 2em;
+  padding-right: 0.5em;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1100px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -99,4 +125,23 @@ i {
   #myVideo {
     min-height: auto;
   }
+}
+
+
+
+@media(max-width:767px) {
+  #about {
+      display: flex;
+      flex-wrap: wrap;
+  }
+  #about-text2 {
+    order: 1;
+  }
+  #about-pic1 {
+    order: 2;
+  }
+  #about-text3 {
+    order: 3;
+  }
+
 }
