@@ -37,6 +37,25 @@ function doGet() {
 }
 
 
+function addClass(el, className)
+{
+    document.getElementById("div1").classList.add("classToBeAdded");
+}
+
+function removeClass(el, className)
+{
+    document.getElementById("div1").classList.remove("w3-display-middle");
+}
+
+window.addEventListener("load", function() {
+    if (window.innerWidth < 767) {
+    document.getElementById("titul").classList.remove("w3-display-middle");
+    document.getElementById("titul").classList.add("w3-display-topmiddle");
+    document.getElementById("titul2").classList.remove("w3-display-middle");
+    document.getElementById("titul2").classList.add("w3-display-topmiddle");
+}
+});
+
 
 window.addEventListener('load', doGet(), false)
 
