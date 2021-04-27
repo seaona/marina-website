@@ -30,11 +30,6 @@ function toggleFunction() {
 }
 
 
-function doGet() {
-    return HtmlService.createTemplateFromFile('form.html')
-        .evaluate() // evaluate MUST come before setting the Sandbox modenavDemo
-        .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL);
-}
 
 
 function addClass(el, className)
@@ -55,7 +50,3 @@ window.addEventListener("load", function() {
     document.getElementById("titul2").classList.add("w3-display-topmiddle");
 }
 });
-
-
-window.addEventListener('load', doGet(), false)
-
