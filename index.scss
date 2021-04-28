@@ -32,7 +32,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +53,14 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url("./imgs/marina-2.jpg");
+  background-image: url("./imgs/contacto.jpg");
+  min-height: 100%;
+}
+
+
+//Mobile
+.bgimg-4 {
+  background-image: url("./imgs/contacto.jpg");
   min-height: 100%;
 }
 
@@ -62,6 +69,9 @@ body, html {
   min-height: 100%;
 }
 
+.vp-placeholder, .vp-center{
+  height: 230px;
+}
  /* Style the video: 100% width and height to cover the entire window */
  #myVideo {
   right: 0;
@@ -145,7 +155,7 @@ i {
 }
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1100px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
     background-attachment: scroll;
     min-height: 400px;
   }
@@ -161,9 +171,15 @@ i {
   .mobile {
     display: block;
   }
+
   #home {
     display: none;
   }
+
+  .only-web {
+    display: none;
+  }
+
   #titulo-text{
     font-size: 1.8em !important;
     font-weight: 300;
@@ -180,6 +196,10 @@ i {
   }
   #about-text3 {
     order: 3;
+  }
+
+  .w3-bar .w3-button {
+    font-size: 1.8em;
   }
 
 }
